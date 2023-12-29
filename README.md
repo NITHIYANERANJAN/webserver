@@ -3,29 +3,15 @@
 # AIM:
 
 To develop a simple webserver to serve html programming pages.
-
-## DESIGN STEPS:
-
-### Step 1:
-
-HTML content creation is done
-
-### Step 2:
-
-Design of webserver workflow
-
-### Step 3:
-
-Implementation using Python code
-
-### Step 4:
-
-Serving the HTML pages.
-
-### Step 5:
-
-Testing the webserver
-
+# Algorithm:
+```
+1.Install Visual Studio Code if you haven't already.
+2.Install the Python extension for VS Code.
+3.Open VS Code and create a new folder for your project.
+4.Inside the project folder, create a new file named app.py.
+5.Install Flask by opening a terminal in VS Code and running pip install flask.
+6.Write the following code in app.py:
+```
 ## PROGRAM:
 ```python
 from http.server import HTTPServer,BaseHTTPRequestHandler
